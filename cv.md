@@ -46,9 +46,9 @@ Hello everyone, my name is Oleg, and I am trying to overcome the difficult path 
 ----
 #### Langueges
 * Russian native
-* English B2
+* English Independent User
 ----
 #### Contacts
-Phone: +375(33)329-32-48
-E-mail: remorselex99@gmail.com
-Telegram: @Remorselex
+* Phone: +375(33)329-32-48
+* E-mail: remorselex99@gmail.com
+* Telegram: @Remorselex
