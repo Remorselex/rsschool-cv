@@ -1,0 +1,33 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+.main-container {
+	margin: 35px auto;
+	padding: 2% 3%;
+	width: 1200px;
+   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	background-color: rgba(190, 190, 190, 0.2);
+}
+header{
+	font-weight: bold;
+	background-color: rgb(92, 92, 92);
+	color: aliceblue;
+
+}
+
+.my-skills{
+	display: flex;
+}
+.skills{
+	display: flex;
+}
+.total-skills{
+	display: flex;
+}
+.skills-block{
+
+}
+footer{
+	height: 10px;
+	padding-top: 15px;
+}
