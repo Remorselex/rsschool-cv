@@ -15,14 +15,24 @@
 
 <body>
 	<div class="main-container">
+		<nav>
+			<!-- Каб было -->
+		</nav>
 
-		<header>
-			<h1>Oleg Ostrovskiy</h1>
-			<h5>Front-end developer</h5>
+		<header class="header-class">
+			<div>
+				<h1>Oleg Ostrovskiy</h1>
+				<h5>Front-end developer</h5>
+			</div>
+
+			<div>
+				<img class="my-photo" src="tools/img/myPhoto.jpg" alt="My Photo" width="100px">
+			</div>
+
 		</header>
 		<section class="introclass">
-			<h4>About me</h4>
-			<p>
+			<h4 class="tag-padding">About me</h4>
+			<p class="tag-padding maintext">
 				Hello everyone, my name is Oleg, and I am trying to overcome the difficult path of an IT specialist. Good.
 				After graduating from school, I entered Polotsk State University, where I got a profession: "Chemical
 				Engineer-technologist", since childhood I dreamed of becoming a programmer, but... As they say, not all at
@@ -36,63 +46,121 @@
 				the way, I liked for its logic and consistency. Now I am on the path of a Front-end developer. And yes, this
 				is
 				an extremely interesting direction in the IT sphere. Which I strive to get into and put a lot of effort into
-				it
+				it.
 			</p>
 			<hr>
 		</section>
-		<div class="total-skills">
-			<section class="my-skills">
-				<div class="skills-block">
+
+		<section>
+			<div class="tag-padding">
+				<h4>Code example</h4>
+				<pre class="padding-code">
+				<code class="padding-code">
+					int* FunctionE(int** array, int size) 
+					{
+						int* minValues = new int[size];
+				  
+						for (int i = 0; i < size; ++i)
+						{
+				  
+							 for (int j = 0; j < size; ++j)
+							 {
+				  
+								  if (j == 0)
+								  {
+										minValues[i] = array[i][j];
+										continue;
+								  }
+				  
+								  if (minValues[i] > array[i][j]) 
+								  {
+										minValues[i] = array[i][j];
+								  }
+				  
+							 }
+				  
+						}
+				  
+						return minValues;
+				         }				  
+				</code>
+			</pre>
+			</div>
+			<hr>
+		</section>
+
+		<div class="total-skills tag-padding">
+
+			<div class="total-skills">
+				<ul>
 					<h4>Skills</h4>
-					<ul>
-						<li>HTML5, CSS3</li>
-						<li>Java script</li>
-						<li>OOP</li>
-						<li>Git, GitHub</li>
-						<li>C++,C#</li>
-						<li>VS Code, VS Community</li>
-						<li>Unity</li>
-					</ul>
-				</div>
-				<div class="skills-block">
-					<h4>Languages</h4>
-					<ul>
-						<li>English</li>
-						<li>Russian</li>
-						<li>Belarusian</li>
-					</ul>
+					<li>HTML5, CSS3</li>
+					<li>Java script</li>
+					<li>OOP</li>
+					<li>Git, GitHub</li>
+					<li>C++,C#</li>
+					<li>VS Code</li>
+					<li>VS Community</li>
+					<li>Unity</li>
+				</ul>
 
-				</div>
-			</section>
+			</div>
+			<div class="total-skills">
+				<ul>
+					<h4>Languages: </h4>
+					<li>English</li>
+					<li>Russian</li>
+					<li>Belarusian</li>
+				</ul>
+			</div>
 
-			<section class="skills">
-				<div class="skills-block">
-					<h4>Software skills</h4>
+			<div class="total-skills">
 
-					<ul>
-						<li>Word</li>
-						<li>Power point</li>
-					</ul>
-				</div>
-				<div class="skills-block">
+				<ul>
+					<h4>Software skills: </h4>
+					<li>Word</li>
+					<li>Power point</li>
+				</ul>
+			</div>
+
+			<div class="total-skills">
+				<ul>
 					<h4>Hobbies</h4>
-					<ul>
-						<li>Games</li>
-						<li>Sport</li>
-						<li>Music</li>
-						<li>Anime</li>
-						<li>Psychology</li>
-					</ul>
-				</div>
-			</section>
+					<li>Games</li>
+					<li>Sport</li>
+					<li>Music</li>
+					<li>Anime</li>
+					<li>Psychology</li>
+				</ul>
+			</div>
+			<div class="total-skills">
+				<ul>
+					<h4>Education</h4>
+					<li>Higher</li>
+				</ul>
+			</div>
+
 		</div>
 
 
+
+
 		<hr>
-		<footer>
-			Telegram: @Remorselex
-			Phone number: +375(33) 329-32-48
-			Discord: remorselex#0048
+		<footer class="tag-padding">
+			<ul class="hr">
+
+				<li class="li-for-horisontal-list"><a href="https://github.com/Remorselex" target="_blank"
+						title="my github reference"><img src="tools/img/github_SWAGcat.png" alt="githubSWAGcat"
+							width="40px"></a>
+				</li>
+				<li class="li-for-horisontal-list"><a href="https://t.me/Remorselex" title="my telegram reference"
+						target="_blank"><img src="tools/img/telegram.png" alt="telegramIMG" width="40px"></a></li>
+				<li class="li-for-horisontal-list"><a href="https://discord.gg/Wsz5X8SV" title="my discord server reference"
+						target="_blank"><img src="tools/img/discord.png" alt="telegramIMG" width="40px"></a></li>
+			</ul>
+
+
+			<b class="tag-padding">create date: 15.06.2022</b>
 		</footer>
 	</div>
 </body>

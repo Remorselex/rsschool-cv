@@ -1,33 +1,63 @@
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;	
 }
+
 .main-container {
 	margin: 35px auto;
-	padding: 2% 3%;
 	width: 1200px;
-   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 	background-color: rgba(190, 190, 190, 0.2);
 }
+
 header{
 	font-weight: bold;
 	background-color: rgb(92, 92, 92);
 	color: aliceblue;
-
+	padding: 1px 0px 1px 25px;
+	margin: auto;
+	
 }
-
-.my-skills{
+.my-photo{
+	border-radius: 50%;
+	margin: 7px;
+	border-style: solid;
+}
+.header-class{
 	display: flex;
+	justify-content: space-between;
 }
-.skills{
-	display: flex;
+.tag-padding{
+	padding-left: 25px;
+	padding-right:40px;
+	text-align: justify;
 }
+
+
 .total-skills{
 	display: flex;
+	justify-content: space-evenly;
+	margin-left: -6%;
 }
-.skills-block{
 
-}
 footer{
-	height: 10px;
+	padding-bottom: 20px;
+	height: auto;
 	padding-top: 15px;
+	margin: auto;
+	
+}
+
+.hr {
+	margin: 0;
+	padding: 4px;
+}
+
+.li-for-horisontal-list
+{
+	display: inline;
+	margin-right: 10px;
+	padding: 20px;
+}
+.padding-code{
+	margin-left: -25%;
 }
