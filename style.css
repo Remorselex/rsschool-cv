@@ -41,6 +41,7 @@ header{
 }
 .ability-heat{
 	font-weight: 900;
+	display: inline;
 }
 
 footer{
