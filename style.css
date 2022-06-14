@@ -21,6 +21,7 @@ header{
 	border-radius: 50%;
 	margin: 7px;
 	border-style: solid;
+	width: 100px;
 }
 .header-class{
 	display: flex;
@@ -37,6 +38,10 @@ header{
 	display: flex;
 	justify-content: space-evenly;
 	margin-left: -6%;
+}
+.ability-heat{
+	font-weight: 900;
+	display: inline;
 }
 
 footer{
@@ -60,4 +65,8 @@ footer{
 }
 .padding-code{
 	margin-left: -25%;
+}
+.img-size
+{
+	width: 40px;
 }
