@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Remorselex.github.io/rsschool-cv/cv
